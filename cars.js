@@ -8,7 +8,7 @@ class Cars {
         this.price = price;
     }
     editPrice(newPrice){
-        this.price = newPrice;
+        return this.price = newPrice;
     }
     showAll(){
         return `${this.make} \n ${this.model} \n ${this.colour} \n ${this.image} \n ${this.registrationNumber} \n ${this.price}`
